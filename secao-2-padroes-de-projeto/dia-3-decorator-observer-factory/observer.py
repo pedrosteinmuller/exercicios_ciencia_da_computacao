@@ -9,6 +9,10 @@ class Perfil:
     def adicionar_sistema_de_notificacao(self, sistema):
         self.__sistemas_de_notificacao.append(sistema)
 
+    def remover_sistema_de_notificacao(self, sistema):
+        if sistema in self.__sistemas_de_notificacao:
+            self.__sistemas_de_notificacao.remove(sistema)
+
     def notificar_todos(self):
         for sistema in self.__sistemas_de_notificacao:
             sistema.notificar()
