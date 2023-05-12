@@ -1,4 +1,4 @@
-from aaaa import webdriver
+from selenium import webdriver
 
 # Importa a classe 'Options' do browser
 from selenium.webdriver.firefox.options import Options
