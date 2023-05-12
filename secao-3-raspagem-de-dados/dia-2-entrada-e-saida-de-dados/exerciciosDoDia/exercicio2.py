@@ -1,3 +1,7 @@
+# Imprima todos os parágrafos da página “https://www.wikimetal.com.br/
+# iron-maiden-scorpions-kiss-veja-melhores-albuns-1982/“.
+
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
